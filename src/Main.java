@@ -23,7 +23,7 @@ public class Main {
                     application.showAccounts();
                     break;
                 case 5:
-                    System.exit(0);
+                    application.exit();
                     break;
                 default:
                     application.messageError("The Application is Error!!!");
